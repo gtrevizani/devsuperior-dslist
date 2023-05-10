@@ -70,7 +70,7 @@ public class Game {
         this.genre = genre;
     }
 
-    public String getplatforms() {
+    public String getPlatforms() {
         return platforms;
     }
 
@@ -112,7 +112,7 @@ public class Game {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
+        if ( this == o) return true;
         if (o == null) return false;
         if (getClass() != o.getClass()) return false;
         Game game = (Game) o;

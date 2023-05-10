@@ -1,10 +1,10 @@
 @REM ----------------------------------------------------------------------------
 @REM Licensed to the Apache Software Foundation (ASF) under one
 @REM or more contributor license agreements.  See the NOTICE file
-@REM distributed with this work for additional information
-@REM regarding copyright ownership.  The ASF licenses this file
+@REM distributed with  work for additional information
+@REM regarding copyright ownership.  The ASF licenses  file
 @REM to you under the Apache License, Version 2.0 (the
-@REM "License"); you may not use this file except in compliance
+@REM "License"); you may not use  file except in compliance
 @REM with the License.  You may obtain a copy of the License at
 @REM
 @REM    https://www.apache.org/licenses/LICENSE-2.0
@@ -43,7 +43,7 @@ title %0
 @REM set %HOME% to equivalent of $HOME
 if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
 
-@REM Execute a user defined script before this one
+@REM Execute a user defined script before  one
 if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
 @REM check for pre script, once with legacy .bat ending and once with .cmd ending
 if exist "%USERPROFILE%\mavenrc_pre.bat" call "%USERPROFILE%\mavenrc_pre.bat" %*
@@ -127,7 +127,7 @@ FOR /F "usebackq tokens=1,2 delims==" %%A IN ("%MAVEN_PROJECTBASEDIR%\.mvn\wrapp
 )
 
 @REM Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
-@REM This allows using the maven wrapper in projects that prohibit checking in binary data.
+@REM  allows using the maven wrapper in projects that prohibit checking in binary data.
 if exist %WRAPPER_JAR% (
     if "%MVNW_VERBOSE%" == "true" (
         echo Found %WRAPPER_JAR%

@@ -2,10 +2,10 @@
 # ----------------------------------------------------------------------------
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
-# distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
+# distributed with  work for additional information
+# regarding copyright ownership.  The ASF licenses  file
 # to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
+# "License"); you may not use  file except in compliance
 # with the License.  You may obtain a copy of the License at
 #
 #    https://www.apache.org/licenses/LICENSE-2.0
@@ -80,7 +80,7 @@ if [ -z "$M2_HOME" ] ; then
   ## resolve links - $0 may be a link to maven's home
   PRG="$0"
 
-  # need this for relative symlinks
+  # need  for relative symlinks
   while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
@@ -205,7 +205,7 @@ fi
 
 ##########################################################################################
 # Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
-# This allows using the maven wrapper in projects that prohibit checking in binary data.
+#  allows using the maven wrapper in projects that prohibit checking in binary data.
 ##########################################################################################
 if [ -r "$BASE_DIR/.mvn/wrapper/maven-wrapper.jar" ]; then
     if [ "$MVNW_VERBOSE" = true ]; then
