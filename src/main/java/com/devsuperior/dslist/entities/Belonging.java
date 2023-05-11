@@ -9,9 +9,12 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_belonging")
 public class Belonging {
+    // Atributos
     @EmbeddedId
     private BelongingPK id = new BelongingPK();
     private Integer position;
+
+    // Métodos
     public Belonging(){
     }
     public Belonging(Game game, GameList list, Integer position) {

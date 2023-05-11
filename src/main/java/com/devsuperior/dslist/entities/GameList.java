@@ -7,13 +7,14 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_game_list")
 public class GameList {
+    // Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 
+    // Métodos
     public GameList() {
-
     }
 
     public GameList(Long id, String name) {

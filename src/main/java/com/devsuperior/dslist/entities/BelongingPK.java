@@ -7,14 +7,16 @@ import jakarta.persistence.ManyToOne;
 import java.util.Objects;
 @Embeddable
 public class BelongingPK {
+    // Atributos
     @ManyToOne
     @JoinColumn(name = "game_id")
     private Game game;
     @ManyToOne
     @JoinColumn(name = "list_id")
     private GameList list;
-    public BelongingPK() {
 
+    // Métodos
+    public BelongingPK() {
     }
 
     public BelongingPK(Game game, GameList list) {
