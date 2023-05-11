@@ -12,7 +12,7 @@ import java.util.List;
 
 @Service
 public class GameService {
-    // Atributos
+
     @Autowired
     private GameRepository gameRepository;
 
